@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/fd"
+    tools:context=".Welcome">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="WELCOME.."
+       android:textColor="#0D47A1"
+       android:textAlignment="center"
+       android:textSize="40dp"
+
+       />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="WE CARE FOR YOU..."
+        android:textColor="#311B92"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="80dp"
+
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:text="start"
+       android:background="#0288D1"
+        android:id="@+id/button"/>
+</RelativeLayout>
