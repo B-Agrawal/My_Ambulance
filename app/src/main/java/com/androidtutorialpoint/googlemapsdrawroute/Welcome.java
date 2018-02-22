@@ -13,6 +13,7 @@ Button b1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
         b1=(Button)findViewById(R.id.button);
+//button to start
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
